@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
     }
   }
   
-  ## Compute the  inverse of the matrix and cache into the makeCacheMatrix function variable
+  ## Compute the inverse of the matrix and cache into the makeCacheMatrix function variable
   ## InverseMatrx
   setInverseMatrx<-function(){
     InverseMatrx<<-solve(Matrx)
@@ -67,7 +67,7 @@ cacheSolve <- function(x,...) {
         
   }
   
-  ## If the matrix argument is a new one, cache the new matrix, compute & cache the inverse
+  ## If the matrix argument is a new one, cache the new matrix, compute & cache the matrix inverse
   ## and retieve the matrix inverse.
   else
   {
